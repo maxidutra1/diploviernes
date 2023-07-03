@@ -1,0 +1,21 @@
+img{
+    width: 150px;;
+    height:150px; ;
+  }
+  ul {
+    list-style: none;
+    
+}
+li {
+margin: 5px;
+    
+}
+p{
+  font-size: 15px;
+      
+  }
+  h1{
+    font-size: 2rem;
+    color:rgb(rgb(21, 21, 21), rgb(46, 48, 46), rgb(23, 23, 26))
+        
+    }
