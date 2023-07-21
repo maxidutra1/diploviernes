@@ -1,0 +1,136 @@
+.contenedor1 {
+    border: black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+   
+     
+}
+
+.item1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+   
+    
+}
+
+.item2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.item3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+}
+
+.contenedor2 {
+    border: black 1px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+  
+    
+    
+}
+
+.item4{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+   
+   
+    
+}
+
+.item5{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.item6{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor3 {
+    display: flex;
+justify-content: space-between;
+    align-items: end;
+  
+   
+     
+}
+
+.item7{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+   
+   
+    
+}
+
+.item8{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item9{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
