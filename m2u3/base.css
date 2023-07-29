@@ -40,6 +40,7 @@ aside {
 @media (max-width: 800px){
 	#contenedor{display:flex;
 		flex-direction: column;
+		width: 100%;
 		}
 		
 		nav{ width:100%;
