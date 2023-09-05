@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Color al Clickear</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            transition: background-color 0.3s;
+        }
+
+        .cuadrado {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            cursor: pointer;
+            
+        }
+
+        #cuadrado1 {
+            background-color: red;
+        }
+
+        #cuadrado2 {
+            background-color: green;
+        }
+
+        #cuadrado3 {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="cuadrado" id="cuadrado1"></div>
+    <div class="cuadrado" id="cuadrado2"></div>
+    <div class="cuadrado" id="cuadrado3"></div>
+
+    <script>
+        const cuadrado1 = document.getElementById('cuadrado1');
+        const cuadrado2 = document.getElementById('cuadrado2');
+        const cuadrado3 = document.getElementById('cuadrado3');
+
+        cuadrado1.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'red';
+        });
+
+        cuadrado2.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'green';
+        });
+
+        cuadrado3.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'blue';
+        });
+    </script>
+</body>
+</html>
+

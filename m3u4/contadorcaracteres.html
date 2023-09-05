@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contador de Caracteres</title>
+<style>
+
+
+  #container {
+    width: 300px;
+    margin: 50px auto;
+    color: #211f1f;
+  }
+  #contador {
+    color: #211f1f;
+  }
+</style>
+</head>
+<body>
+  <div id="container">
+    <textarea id="textArea" rows="5" maxlength="200"></textarea>
+    <p id="contador">0 caracteres</p>
+  </div>
+
+  <script>
+    const textArea = document.getElementById('textArea');
+    const contador= document.getElementById('contador');
+
+    textArea.addEventListener('input', () => {
+      const currentLength = textArea.value.length;
+      contador.textContent = `${currentLength}  caracteres/Max. 200 caracteres`;
+    });
+  </script>
+</body>
+</html>
