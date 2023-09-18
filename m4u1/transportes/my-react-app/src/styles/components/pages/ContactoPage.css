@@ -1,0 +1,34 @@
+.contacto {
+display: flex;
+gap: 20px ;
+} 
+.contacto div{
+width: 100%;
+}    
+.datos p{
+font-size: 15px;
+}
+
+
+.datos ul li{
+font-size: 12px;
+list-style: none;
+}  
+.formulario p{
+display: flex;
+} 
+.formulario p label{
+min-width: 60%;
+display: flex;
+align-items: center;
+}  
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    
+    }  
+
+
+
