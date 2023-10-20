@@ -1,0 +1,21 @@
+1-SELECT nombre, trabajo
+FROM empleados
+
+2-SELECT nombre, edad
+FROM empleados
+
+3-SELECT nombre, edad
+FROM empleados
+WHERE trabajo = "Programador"
+
+4-SELECT nombre, apellido, edad
+FROM empleados
+WHERE edad >= 30
+
+5-SELECT apellido, mail
+FROM empleados
+WHERE nombre = 'Juan'
+
+6-SELECT nombre
+FROM empleados
+WHERE trabajo = 'Programador' OR trabajo = 'Desarrollador Web'
