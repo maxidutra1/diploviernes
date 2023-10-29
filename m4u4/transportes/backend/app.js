@@ -50,7 +50,7 @@ app.get('/salir', function (req, res) {
   req.session.destroy();
   res.redirect('/');
 });
-//app.use('/admin/login', loginRouter);
+app.use('/admin/login', loginRouter);
 
 
 // catch 404 and forward to error handler
