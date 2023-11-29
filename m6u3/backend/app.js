@@ -13,7 +13,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/admin/login');
 var adminRouter = require('./routes/admin/novedades'); 
-var apiRouter = require('./routes/api');
+var apiRouter = require('./routes/admin/api');
 
 var app = express();
 
