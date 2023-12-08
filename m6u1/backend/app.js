@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+
 var fileUpload = require('express-fileupload');
 var cors = require ('cors');
 require('dotenv').config();
@@ -56,15 +57,7 @@ app.use('/admin/login', loginRouter);
 app.use('/admin/novedades', secured, adminRouter);
 app.use('/api', cors(), apiRouter);
 
-app.get('/', function (req, res) {
-  var conocido = Boolean(req.session.nombre);
 
-  res.render('index', {
-  title: 'Sesiones en Express.js',
-  conocido: conocido,
-  nombre: req.session.nombre 
-});
-});
 
 app.post('/ingresar', function (req, res) {
   if (req.body.nombre){

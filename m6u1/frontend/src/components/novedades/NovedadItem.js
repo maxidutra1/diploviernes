@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const NovedadItem = (props) => {
     const { title, subtitle, imagen, body } = props;
@@ -7,7 +7,7 @@ const NovedadItem = (props) => {
         <div className="novedades">
            <h1>{title}</h1> 
            <h2>{subtitle}</h2> 
-           <img alt="" src={imagen}/> 
+           <img alt="" src={imagen} /> 
            <div dangerouslySetInnerHTML={{__html: body}}/>
            <hr />
            </div> 
